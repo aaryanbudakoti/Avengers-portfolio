@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avengers Initiative — Earth's Mightiest Heroes</title>
+  <meta name="description" content="A cinematic tribute portfolio to the Avengers — explore the heroes, the villains, the films and the legacy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- particles -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a class="brand" href="#hero">
+      <span class="brand-mark">A</span>
+      <span class="brand-text">AVENGERS<small>INITIATIVE</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#heroes">Heroes</a>
+      <a href="#villains">Villains</a>
+      <a href="#timeline">Saga</a>
+      <a href="#stats">Legacy</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#join" class="nav-cta">Join</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" style="background-image:url('https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/de/Avengers_Endgame_International.jpg/revision/latest?cb=20190323034207')"></div>
+    <div class="hero-grad"></div>
+    <div class="hero-content">
+      <p class="kicker reveal">Earth's Mightiest Heroes · One Legacy</p>
+      <h1 class="reveal delay-1">AVENGERS<br/><span class="gold">INITIATIVE</span></h1>
+      <p class="lead reveal delay-2">When the world fractures, they rise. A coalition of legends forged in lightning, vibranium and hope — assembled to protect what cannot protect itself.</p>
+      <div class="cta-row reveal delay-3">
+        <a href="#heroes" class="btn btn-primary">Explore Heroes</a>
+        <a href="#villains" class="btn btn-ghost">View Villains</a>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- HEROES -->
+  <section class="section" id="heroes">
+    <div class="section-head">
+      <p class="eyebrow">The Roster</p>
+      <h2>The Heroes</h2>
+      <p class="sub">Nine icons. One initiative. Click any operative to view their classified file.</p>
+    </div>
+    <div class="grid heroes-grid" id="heroesGrid"></div>
+  </section>
+
+  <!-- VILLAINS -->
+  <section class="section section-dark" id="villains">
+    <div class="section-head">
+      <p class="eyebrow red">Threat Index</p>
+      <h2>The Villains</h2>
+      <p class="sub">Adversaries whose ambitions reshaped galaxies. Approach with extreme caution.</p>
+    </div>
+    <div class="grid villains-grid" id="villainsGrid"></div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section" id="timeline">
+    <div class="section-head">
+      <p class="eyebrow">The Saga</p>
+      <h2>Cinematic Timeline</h2>
+      <p class="sub">From the Battle of New York to the Endgame — drag or scroll to traverse.</p>
+    </div>
+    <div class="timeline-wrap">
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section section-dark" id="stats">
+    <div class="section-head">
+      <p class="eyebrow gold-text">The Legacy</p>
+      <h2>By The Numbers</h2>
+    </div>
+    <div class="stats" id="stats-grid">
+      <div class="stat"><div class="stat-num" data-target="33">0</div><div class="stat-label">Films in the Saga</div></div>
+      <div class="stat"><div class="stat-num" data-target="29" data-suffix="B+">0</div><div class="stat-label">Box Office (USD)</div></div>
+      <div class="stat"><div class="stat-num" data-target="42">0</div><div class="stat-label">Heroes Recruited</div></div>
+      <div class="stat"><div class="stat-num" data-target="118">0</div><div class="stat-label">Villains Defeated</div></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section" id="gallery">
+    <div class="section-head">
+      <p class="eyebrow">Stills</p>
+      <h2>Cinematic Gallery</h2>
+      <p class="sub">Iconic frames from across the saga.</p>
+    </div>
+    <div class="gallery" id="gallery-grid"></div>
+  </section>
+
+  <!-- CTA / JOIN -->
+  <section class="section section-dark" id="join">
+    <div class="join-wrap">
+      <div class="join-copy">
+        <p class="eyebrow gold-text">Recruitment Open</p>
+        <h2>Join The Initiative</h2>
+        <p class="sub">Tell us your codename, where to reach you, and why the world needs you. We'll respond on a secure channel.</p>
+      </div>
+      <form class="join-form" id="joinForm" novalidate>
+        <label>Codename
+          <input name="name" type="text" maxlength="80" required placeholder="e.g. Nova" />
+        </label>
+        <label>Comm-Link
+          <input name="email" type="email" maxlength="160" required placeholder="you@earth.net" />
+        </label>
+        <label>Mission Statement
+          <textarea name="message" rows="5" maxlength="800" required placeholder="What threat do you face? What are your abilities?"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block">Transmit</button>
+        <p class="form-msg" id="formMsg" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="yr"></span> Avengers Initiative · A cinematic fan tribute. All hero designs are original artworks.</p>
+  </footer>
+
+  <!-- HERO MODAL -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="document">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div class="modal-grid">
+        <div class="modal-image"><img id="m-img" alt="" /></div>
+        <div class="modal-body">
+          <p class="eyebrow" id="m-tag"></p>
+          <h3 id="m-name"></h3>
+          <p class="m-quote" id="m-quote"></p>
+          <p id="m-desc"></p>
+          <div class="m-meta">
+            <div><h4>Powers & Abilities</h4><ul id="m-powers"></ul></div>
+            <div><h4>Key Achievements</h4><ul id="m-ach"></ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" data-lb-close aria-label="Close">×</button>
+    <img id="lb-img" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
