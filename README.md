@@ -115,7 +115,7 @@ avengers-initiative/
 ├── index.html           ← The front door. Don't knock. Just enter.
 ├── style.css            ← Where the suit gets its shine.
 ├── script.js            ← JARVIS lite. Does what I tell it.
-├── screenshots/         ← Evidence that this actually looks good.
+
 
 ```
 
