@@ -307,6 +307,19 @@ h3{font-size:clamp(1.5rem,2.5vw,2.2rem)}
 .delay-2{transition-delay:.3s}
 .delay-3{transition-delay:.45s}
 
+/* ---------- DOOMSDAY FEATURED ---------- */
+.doomsday{position:relative;min-height:80vh;display:flex;align-items:center;overflow:hidden;isolation:isolate;padding:6rem clamp(1.5rem,6vw,5rem)}
+.doomsday-bg{position:absolute;inset:-5%;background-size:cover;background-position:center top;filter:saturate(.85) contrast(1.1);animation:slow-zoom 24s ease-in-out infinite alternate;z-index:-2}
+.doomsday-grad{position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 30% 50%,rgba(0,0,0,0) 0%,rgba(7,7,9,.6) 50%,rgba(7,7,9,1) 100%),linear-gradient(180deg,rgba(7,7,9,1) 0%,rgba(7,7,9,.2) 30%,rgba(7,7,9,1) 100%)}
+.doomsday-content{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;width:100%}
+.doomsday-content h2{margin:1rem 0 1.5rem}
+.doomsday-content h2 .red{color:var(--red-2)}
+.doomsday-meta{display:flex;gap:2.5rem;margin:2rem 0 2.5rem;flex-wrap:wrap}
+.meta-label{display:block;font-family:'Bebas Neue',sans-serif;letter-spacing:.3em;font-size:.75rem;color:var(--ink-dim);margin-bottom:.2rem}
+.meta-val{font-family:'Cinzel',serif;font-weight:700;font-size:1.1rem;color:var(--ink)}
+.doomsday .lead{max-width:52ch}
+@media(max-width:620px){.doomsday-meta{gap:1.2rem 2rem}}
+
 /* ---------- RESPONSIVE NAV ---------- */
 @media(max-width:820px){
   .burger{display:flex}

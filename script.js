@@ -58,6 +58,7 @@
     {name:'Red Skull',tag:'HYDRA Architect',movie:'The First Avenger',threat:3,img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/6/6d/Red_Skull_Infobox.png/revision/latest?cb=20190808103105'},
     {name:'Hela',tag:'Goddess of Death',movie:'Ragnarok',threat:4,img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/40/Hela_Profile.png/revision/latest?cb=20231021034457'},
     {name:'Killmonger',tag:'Pretender to the Throne',movie:'Black Panther',threat:3,img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/9d/Black_Panther_Textless_Character_Poster_03.jpg/revision/latest?cb=20231024003905'},
+    {name:'Doctor Doom',tag:'Ruler of Latveria',movie:'Avengers: Doomsday',threat:5,img:'https://cdn.marvel.com/content/2x/057drd_com_cut_dsk_01_1.jpg'},
   ];
 
   const TIMELINE = [
@@ -65,9 +66,10 @@
     {year:'2015',title:'Age of Ultron',img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Avengers_Age_Of_Ultron-poster1.jpg/revision/latest?cb=20150224202250',desc:'A peacekeeping AI awakens to genocide — the team confronts the monster of their own making.'},
     {year:'2018',title:'Infinity War',img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/Avengers_Infinity_war_poster.jpeg/revision/latest?cb=20180316141550',desc:'Thanos hunts the Infinity Stones. Half the universe falls in a single, devastating snap.'},
     {year:'2019',title:'Endgame',img:'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/91/Endgame_Poster_2.jpg/revision/latest?cb=20190314215527',desc:'Across time and space, the surviving heroes mount one impossible last stand. Whatever it takes.'},
+    {year:'2026',title:'Doomsday',img:'https://image.tmdb.org/t/p/original/9x2jx7659eLUjFavs9t7QGsO1RS.jpg',desc:'Doctor Doom rises. The Avengers unite with the Fantastic Four, X-Men and Thunderbolts to face a multiversal threat.'},
   ];
 
-  const GALLERY = ['https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/91/Endgame_Poster_2.jpg/revision/latest?cb=20190314215527','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/Avengers_Infinity_war_poster.jpeg/revision/latest?cb=20180316141550','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Avengers_Age_Of_Ultron-poster1.jpg/revision/latest?cb=20150224202250','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5c/Civil_War_Final_Poster.jpg/revision/latest?cb=20160310172110','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/fa/Thor_Ragnarok_SDCC_Poster.jpg/revision/latest?cb=20170723020153'];
+  const GALLERY = ['https://static.wikia.nocookie.net/marvelcinematicuniverse/images/9/91/Endgame_Poster_2.jpg/revision/latest?cb=20190314215527','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/1/11/Avengers_Infinity_war_poster.jpeg/revision/latest?cb=20180316141550','https://image.tmdb.org/t/p/original/9x2jx7659eLUjFavs9t7QGsO1RS.jpg','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/d/d0/Theavengersnewposter.jpg/revision/latest?cb=20140224212619','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c7/Avengers_Age_Of_Ultron-poster1.jpg/revision/latest?cb=20150224202250','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/5/5c/Civil_War_Final_Poster.jpg/revision/latest?cb=20160310172110','https://static.wikia.nocookie.net/marvelcinematicuniverse/images/f/fa/Thor_Ragnarok_SDCC_Poster.jpg/revision/latest?cb=20170723020153'];
 
   // ---------- RENDER ----------
   const heroesGrid = document.getElementById('heroesGrid');
