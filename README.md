@@ -7,6 +7,42 @@ Look, I'll be honest. SHIELD asked me to document this. I told them I don't do d
 
 ---
 
+## 📸 Screenshots — *Because Seeing Is Believing*
+
+> *(And because Fury said "show your work." Fine.)*
+
+### 🏠 Landing Page
+<img width="1886" height="860" alt="Screenshot 2026-04-27 185838" src="https://github.com/user-attachments/assets/d8d6f836-dc48-45ab-b1c9-2521c0e66e40" />
+
+*Cinematic. Dramatic. Exactly what assembling looks like.*
+
+### 🦸 The Heroes
+<img width="1881" height="854" alt="Screenshot 2026-04-27 185851" src="https://github.com/user-attachments/assets/798e3597-aeb8-42a1-9d1f-3b39ba776a89" />
+
+*Nine legends. Click any operative to pull up their classified dossier.*
+
+### 🗂️ Hero Dossier Modal
+<img width="1905" height="855" alt="Screenshot 2026-04-27 185912" src="https://github.com/user-attachments/assets/928ec4f7-f536-4035-a86b-6db7b8d60a4d" />
+
+*Powers. Achievements. Quotes. Everything SHIELD doesn't want you to know.*
+
+### 💀 The Villains
+<img width="1880" height="853" alt="Screenshot 2026-04-27 185929" src="https://github.com/user-attachments/assets/fb200f6f-55a7-43dd-bd0b-3b01ab2313ff" />
+
+*Threat-indexed for your convenience. You're welcome, humanity.*
+
+### 🎞️ Cinematic Gallery
+<img width="1882" height="852" alt="Screenshot 2026-04-27 190004" src="https://github.com/user-attachments/assets/54be7bb2-97f0-4b4e-865f-e9c4429eb5ce" />
+
+*Iconic frames from across the saga. I'm in most of them.*
+
+### 📋 Join the Initiative
+<img width="1878" height="850" alt="Screenshot 2026-04-27 190033" src="https://github.com/user-attachments/assets/842444da-69ed-4037-9809-221357aff49d" />
+
+*Think you've got what it takes? There's a form for that.*
+
+---
+
 ## 🧠 What Even Is This?
 
 Genius-level question. Glad you asked.
@@ -34,7 +70,7 @@ Spoiler: they don't. But we appreciate the enthusiasm.
 
 - 🌑 **Dark cinematic theme** — Because light mode is for people who make bad decisions
 - 🃏 **Hero dossier modals** — Classified files. Powers. Achievements. The whole nine yards.
-- 🔴 **Villain threat meters** — Scientifically calibrated. Thanos breaks the scale. No surprise.
+- 🔴 **Villain threat meters** — Scientifically calibrated. Doom broke my calibration tool. We'll talk about that.
 - 🖼️ **Poster gallery** — A visual feast. You're welcome.
 - 📱 **Fully responsive** — Works on everything. Including whatever Fury uses.
 - 🧭 **Smooth navigation** — Because jerky scrolling is a crime against UI design.
@@ -76,12 +112,11 @@ Just open it. Boom. Done. You're welcome.
 
 ```
 avengers-initiative/
-├── index.html        ← The front door. Don't knock. Just enter.
-├── style.css         ← Where the suit gets its shine.
-├── script.js         ← JARVIS lite. Does what I tell it.
-└── assets/
-    ├── images/       ← Heroes, villains, posters. All classified.
-    └── icons/        ← The A. You know the one.
+├── index.html           ← The front door. Don't knock. Just enter.
+├── style.css            ← Where the suit gets its shine.
+├── script.js            ← JARVIS lite. Does what I tell it.
+├── screenshots/         ← Evidence that this actually looks good.
+
 ```
 
 ---
@@ -101,9 +136,12 @@ Nine heroes. One initiative. One guy who definitely carried the team.
 | Villain | Title | Threat Level |
 |---|---|---|
 | **Thanos** | The Mad Titan | ████████ EXTINCTION |
+| **Doctor Doom** | Ruler of Latveria | ████████ EXISTENTIAL HEADACHE |
 | **Loki** | God of Mischief | ██████ PROBLEMATIC |
 | **Ultron** | Synthetic Apocalypse | ███████ VERY BAD |
 | **Red Skull** | Hydra Architect | █████ HISTORICALLY ANNOYING |
+
+*Special note on Doom: The man built a time machine, mastered dark sorcery, runs an entire country, AND has a PhD. I have mixed feelings about a villain with better credentials than me. Mixed, but mostly annoyed.*
 
 ---
 
