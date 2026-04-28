@@ -94,7 +94,7 @@ Zero frameworks. Zero dependencies. Just raw, unfiltered talent.
 
 ```bash
 # Step 1: Clone it like you mean it
-git clone https://github.com/yourusername/avengers-initiative.git
+git clone https://github.com/aaryanbudakoti/avengers-initiative.git
 
 # Step 2: Enter the compound
 cd avengers-initiative
